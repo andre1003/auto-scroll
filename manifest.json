@@ -1,0 +1,16 @@
+{
+    "name": "Auto Scroll",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Scrolls down automatically",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "optional_permissions": ["<all_urls>"],
+    "browser_action": {}
+}
