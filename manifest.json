@@ -1,15 +1,16 @@
 {
   "name": "Auto Scroll",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 3,
-  "description": "Scrolls down automatically",
+  "description": "Scrolls down automatically. Click twice for stop scrolling.",
   "background": {
     "service_worker": "service_worker.js"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "scripting"
   ],
-  "optional_permissions": [
+  "host_permissions": [
     "<all_urls>"
   ],
   "action": {},
